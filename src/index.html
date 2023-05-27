@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyFlix</title>
+  </head>
+  <body>
+    <header>
+        <nav-bar class="container"></nav-bar>
+    </header>
+    <div class="hero">
+        <hero-section></hero-section>
+    </div>
+    <div class="section-wrapper display-none" id="searchSection">
+        <div class="container">
+            <div class="search-notif">
+                <h2 class="search-text"></h2>
+                <i class="fi fi-ss-cross-circle" id="clearButton" ></i>            
+            </div>
+            <div class="movies-container">
+                <div class="cards" id="searchResult">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-wrapper">
+        <div class="container">
+            <h2>Trending Movies</h2>
+            <div class="movies-container">
+                <div class="cards" id="popularMovies">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-wrapper">
+        <div class="container">
+            <h2>Top Rated Movies</h2>
+            <div class="movies-container">
+                <div class="cards" id="onTeathers">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Dicoding Fundamental Front-end Web</p>
+        </div>
+    </footer>
+    <div class="modal hidden">
+    </div>
+      
+      <div class="overlay hidden"></div>
+    <!-- <script src="./app.js" type="module"></script> -->
+  </body>
+</html>
